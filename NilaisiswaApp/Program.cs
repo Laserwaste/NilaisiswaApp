@@ -1,10 +1,20 @@
 ﻿string namasiswa = "";
-int nilai = 0;
+int nilaisiswa = 0;
 
 Console.Write("aplikasi Nilai Siswa: ");
 
-Console.Write("Massukan Nama: ");
+Console.Write("Masukkan Nama: ");
 namasiswa = Console.ReadLine();
 
-Console.Write();
+Console.Write("masukkan nilai: ");
 nilaisiswa = int.Parse(Console.ReadLine());
+
+if (nilaisiswa>= 75)
+{
+    Console.WriteLine("kamu lulus");
+}
+
+else
+{
+    Console.WriteLine("kamu tidak lulus");
+}
